@@ -15,6 +15,8 @@ namespace Person
             Console.WriteLine(myPersona.GetDettagli());
             Persona myPersona2 = new Persona();
             Console.WriteLine(myPersona2.GetDettagli());
+            Persona myPersona3 = new Persona("David", "Gilmour", 72);
+            Console.WriteLine(myPersona3.GetDettagli());
         }
 
         public class Persona
@@ -49,7 +51,27 @@ namespace Person
                 }
 
             }
-            public string Surname { get; set; }
+            public string Surname
+            {
+
+                get
+                {
+                    return _surname;
+                }
+
+                set
+                {
+                    if (value.Length >= 3)
+                    {
+                        _surname = value;
+                    }
+
+                    else
+                    {
+                        _surname = "none";
+                    }
+                }
+            }
 
 
 
@@ -76,6 +98,12 @@ namespace Person
 
             // Costruttore
 
+            public Persona(char name, char surname, char age)
+            {
+                _name = name.ToString();
+                _surname = surname.ToString();
+                _age = int.Parse(age.ToString());
+            }
 
             public Persona(string name, string surname, int age)
             {

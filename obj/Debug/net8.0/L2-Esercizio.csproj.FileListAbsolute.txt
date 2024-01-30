@@ -12,3 +12,4 @@
 /Users/francescocaputo/Desktop/FS2023/CorsoFS2023/BackEnd/S1/L2-Esercizio/obj/Debug/net8.0/L2-Esercizio.pdb
 /Users/francescocaputo/Desktop/FS2023/CorsoFS2023/BackEnd/S1/L2-Esercizio/obj/Debug/net8.0/L2-Esercizio.genruntimeconfig.cache
 /Users/francescocaputo/Desktop/FS2023/CorsoFS2023/BackEnd/S1/L2-Esercizio/obj/Debug/net8.0/ref/L2-Esercizio.dll
+/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/BackEnd/S1/L2-Esercizio/obj/Debug/net8.0/L2-Esercizio.sourcelink.json
